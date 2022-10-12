@@ -1,7 +1,4 @@
-// template for atcoder beginners
-// when you create a *.cpp file, this template is loaded
-
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
 #define rep(i, n) for (int i = 0; i < (n); ++i)
 using ll = long long;
@@ -13,7 +10,7 @@ int main() {
   cin >> N >> K;
   rep(i, N) cin >> A[i];
 
-  for (int i = 0; i <= N - 1; i++) {
+  rep(i, N - 1) {
     if (i == 0)
       R[i] = 0;
     else
