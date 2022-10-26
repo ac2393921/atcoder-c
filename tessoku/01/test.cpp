@@ -1,6 +1,7 @@
 // template for atcoder beginners
 // when you create a *.cpp file, this template is loaded
 
+#include <bits/stdc++.h>
 #include <iostream>
 using namespace std;
 

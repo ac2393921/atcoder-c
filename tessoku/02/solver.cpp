@@ -4,22 +4,22 @@
 #include <iostream>
 using namespace std;
 
-int N, X, A[109];
-bool Answer = false;
+int n, x, a[109];
+bool answer = false;
 
 int main() {
-  cin >> N >> X;
-  for (int i = 1; i <= N; i++)
-    cin >> A[i];
+  cin >> n >> x;
+  for (int i = 1; i <= n; i++)
+    cin >> a[i];
 
-  for (int i = 1; i <= N; i++) {
-    if (A[i] == X)
-      Answer = true;
+  for (int i = 1; i <= n; i++) {
+    if (a[i] == x)
+      answer = true;
   }
 
-  if (Answer == true)
-    cout << "Yes" << endl;
+  if (answer == true)
+    cout << "yes" << endl;
   else
-    cout << "No" << endl;
+    cout << "no" << endl;
   return 0;
 }
